@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar__items--bold a {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar__items--bold a:hover {
+    color: #ff0000;
+}
+
+#slider {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #000;
+}
+
+.aspect-ratio-169 {
+    display: block;
+    position: relative;
+    padding-top: 60%;
+    transition: 0.3s;
+}
+
+.aspect-ratio-169 img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.dot_container {
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    height: 16px;
+    width: 16px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dot.active {
+    background-color: #007BFF;
+}
+
+/* App Section */
+.app_container {
+    text-align: center;
+    padding: 80px 0 50px;
+    background-color: #f8f9fa;
+}
+
+.app_google {
+    margin: 20px;
+}
+
+.app_google img {
+    height: 50px;
+}
+
+.app_container p {
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.app_container input {
+    margin-top: 30px;
+    border: none;
+    border-bottom: 2px solid #007BFF;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    outline: none;
+}
+
+/* Category */
+.category_top_row {
+    display: flex;
+    color: gray;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Ensure responsiveness */
+    padding: 20px;
+}
+
+.li_list_item {
+    padding: 10px 15px;
+}
+
+.category-item--active .category-item__link {
+    color: #87cff1;
+}
+
+.container_right_top {
+    display: flex;
+    padding: 20px 0;
+}
+
+.input_category {
+    padding-left: 200px;
+}
+
+.input_category input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.container_right_botom {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 200px;
+    margin: 15px;
+    text-align: center;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.img img:hover {
+    transform: scale(1.05);
+}
+
+.img p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
